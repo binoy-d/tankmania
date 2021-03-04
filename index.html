@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>Assn1</title>
+    <title>Tankmania!</title>
     <style>
       html {
         box-sizing: border-box;
@@ -87,13 +87,22 @@
         }
       }
 
+      #shameless-plug{
+        position:absolute;
+        top:0.5em;
+        left:0.5em;
+        z-index:99999;
+      }
+
     </style>
   </head>
 
   <body>
+    <div id = "shameless-plug">
+      <a href = "https://binoy.co">Visit my website!</a>
+    </div>
     <div id="gameContainer"></div>
     <div id="loader">
-      <img class="logo" src="logo.png">
       <div class="spinner"></div>
       <div class="progress"><div class="full"></div></div>
     </div>
